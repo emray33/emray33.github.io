@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<header>
+	<title>Forms</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</header>
+
+	<body class="form">
+		<h1 class="h1-form">Contact Me</h1>
+
+		<div class="container">
+		<form>
+			
+			<label>Title:</label><br>
+			<select>
+				<option value="Mr">Mr.</option>
+				<option value="Mrs">Mrs.</option>
+				<option value="Dr">Dr.</option>
+				<option value="Prof">Prof.</option>
+			</select>
+
+			<br>
+			
+			<label>First Name:</label><br>
+			<input type="text" pattern=".{4,}" title="four or more characters" placeholder="Your first name">
+			
+			<br>
+			
+			<label>Last Name:</label><br>
+			<input type="text" pattern=".{4,}" title="four or more characters" placeholder="Your last name">
+			
+			<br>
+
+			<label>Email:</label><br>
+			<input type="email" placeholder="your@email.com" required>
+			
+			<br><br>
+
+			<label>Subject Title:</label><br>
+			<input type="text" pattern=".{4,}" title="four or more characters" placeholder="subject title">
+			
+			<br>
+			
+			
+			<label>Message:</label><br>
+			<textarea row="10" col="80" minlength="20"></textarea>
+			
+			<br><br>
+			
+			<input type="submit" value="Submit">
+			
+		
+		</form>
+
+		</div>
+	</body>
+
+
+</html>

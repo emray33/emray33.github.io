@@ -1,0 +1,114 @@
+body {
+    Border: solid;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+Header {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    border: solid;
+    margin: 20px 100px 20px 100px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: gainsboro;
+}
+
+p {
+
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h4 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+img {
+    border: solid;
+}
+
+div {
+    padding: 0px 50px 0px 50px;
+
+}
+
+.buttonfixed {
+
+    width: 200px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px 10px 20px;
+    font-style: normal;
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;   
+
+}
+
+/* this is the form style */
+
+input[type="text"], select, textarea, [type="email"] {
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    width: 100%;
+    position: center;
+    
+}
+
+.h1-form {
+    text-align: center;
+    border: 0px solid;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+
+.form {
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: progress;
+    font-size: 16px;
+    margin: 0 5%;
+
+}
+
+input[type="submit"]:hover {
+    background-color: blueviolet;
+
+}
+
+
+.container {
+    background: gainsboro;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 25%;
+    
+}
